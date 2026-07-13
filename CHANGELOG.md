@@ -4,21 +4,18 @@
 
 ### Added
 
-- Complete English edition of the guide.
-- Updated Russian edition.
-- Validated OpenWrt 25.12.5 build procedure.
-- Linux kernel version updated to 6.12.94.
-- MT7996 (BPI-R4-NIC-BE14) documentation.
-- BL2 installation procedure for 8 GB RAM support.
-- eMMC partition expansion guide.
-- Post-build verification steps.
+- Complete English edition
+- Updated Russian edition
+- BL2 installation guide for 8 GB RAM
+- eMMC partition expansion guide
+- Tested on Banana Pi BPI-R4-8P with BPI-R4-NIC-BE14
 
-### Improved
+### Changed
 
-- Overall document structure.
-- Terminology consistency.
-- Installation instructions.
-- General editorial improvements.
+- Improved build instructions
+- Improved document structure
+- Updated for OpenWrt 25.12.5
+- Updated for Linux Kernel 6.12.94
 
 ---
 
