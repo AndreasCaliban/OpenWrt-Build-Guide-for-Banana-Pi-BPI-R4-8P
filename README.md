@@ -8,15 +8,15 @@ A comprehensive and tested guide to building OpenWrt 25.12.5 from source for the
 
 ## Overview
 
-This repository contains comprehensive documentation describing the complete build process of OpenWrt 25.12.5 for the Banana Pi BPI-R4-8P platform.
+This repository contains comprehensive documentation describing the complete build process of OpenWrt 25.12.5 for the Banana Pi BPI-R4-8P.
 
-The guide is based on a fully validated build performed on real hardware equipped with the Banana Pi BPI-R4-NIC-BE14 (MediaTek MT7996) wireless module. It combines all required steps into a single reference, from preparing the build environment to flashing the firmware and verifying the final installation.
+The guide is based on a fully validated build performed on real hardware equipped with the Banana Pi BPI-R4-NIC-BE14 (MediaTek MT7996) wireless module. It brings together all required steps into a single reference, from preparing the build environment to building the firmware, installing the appropriate BL2 bootloader for 8 GB RAM support, expanding the eMMC partition, and verifying the final installation.
 
 Both **English** and **Russian** editions are included.
 
 ---
 
-## Tested Hardware
+## Tested Environment
 
 | Component | Specification |
 |-----------|---------------|
@@ -38,10 +38,10 @@ The documentation covers:
 - Preparing the build environment
 - Downloading the OpenWrt source code
 - Configuring the build system
-- Applying the MT7996 transmit power patch
+- Obtaining the required BL2 bootloader image and MT7996 patch
 - Building the firmware
 - Verifying the build process
-- Installing the BL2 bootloader for 8 GB RAM support
+- Installing the appropriate BL2 bootloader for 8 GB RAM support
 - Expanding the eMMC partition
 - Post-installation verification
 - Troubleshooting
@@ -52,24 +52,17 @@ The documentation covers:
 
 | Path | Description |
 |------|-------------|
-| `docs/` | English and Russian documentation (PDF and DOCX) |
-| `patches/` | MT7996 transmit power patch used during the build |
+| `docs/` | English and Russian editions of the guide (PDF and DOCX) |
 | `README.md` | Project overview |
 | `CHANGELOG.md` | Version history |
-| `LICENSE` | Documentation license |
 
 ---
 
-## Compatibility
+## External Resources
 
-The guide has been verified using:
+This guide references several external resources, including the BL2 bootloader image and the MT7996 transmit power patch.
 
-- Banana Pi BPI-R4-8P
-- Banana Pi BPI-R4-NIC-BE14 (MediaTek MT7996)
-- OpenWrt 25.12.5
-- Linux Kernel 6.12.94
-
-Future OpenWrt releases may require minor adjustments.
+To ensure you always use the latest available versions, please obtain these files from their respective official repositories, as referenced throughout the documentation.
 
 ---
 
@@ -81,21 +74,23 @@ GitHub Profile: https://github.com/AndreasCaliban
 
 ---
 
-## License
-
-The documentation in this repository may be freely shared and adapted with appropriate attribution to the original author.
-
----
-
 ## Acknowledgements
 
-Special thanks to:
+This guide would not have been possible without the outstanding work of the following open-source projects and communities:
 
-- OpenWrt Project
-- Banana Pi Team
-- ImmortalWrt developers
+- **OpenWrt Project**  
+  https://github.com/openwrt/openwrt
 
-for their outstanding work and continuous contributions to the open-source community.
+- **Banana Pi (BPI-SINOVOIP)**  
+  https://github.com/BPI-SINOVOIP
+
+- **ImmortalWrt Project**  
+  https://github.com/immortalwrt/immortalwrt
+
+- **Frank Wunderlich (frank-w)**  
+  https://github.com/frank-w/u-boot
+
+Their work made this guide possible.
 
 ---
 
