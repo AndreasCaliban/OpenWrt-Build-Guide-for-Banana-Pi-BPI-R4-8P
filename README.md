@@ -83,7 +83,7 @@ GitHub Profile: https://github.com/AndreasCaliban
 
 ## License
 
-This documentation is distributed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The documentation in this repository may be freely shared and adapted with appropriate attribution to the original author.
 
 ---
 
